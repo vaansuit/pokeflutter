@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:pokedex/model/pokemon.dart';
-import 'package:pokedex/model/repository/pokemon_repository.dart';
+
+import '../model/pokemon.dart';
+import '../model/repository/pokemon_repository.dart';
 
 class PokemonPresenter with ChangeNotifier {
   final PokemonRepository repository;
